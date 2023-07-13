@@ -3,16 +3,22 @@ body {
   background-color: #f2f2f2;
   margin: 0;
   padding: 20px;
+  background-color: hwb(192 26% 14%);
+  background-image: url(https://img.freepik.com/vector-premium/hospital-edificio-vector-icono-ilustracion-concepto-icono-edificio-punto-referencia-blanco-aislado_138676-440.jpg?w=2000);
+  background-size: 55rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
-  color: #333;
+  color: #020202;
   text-align: center;
 }
 
 h2 {
   text-align: center;
-  color: #666;
+  color: #020202;
   margin-bottom: 10px;
 }
 
@@ -28,11 +34,11 @@ th,
 td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #0616f5;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #6cb3f2;
 }
 
 tr:nth-child(even) {
@@ -48,21 +54,21 @@ img{
 }
 
 a, input[type="submit"] {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   padding: 8px 12px;
-  background-color: #4caf50;
+  background-color: #e47c05;
   border: none;
   font-size: medium;
   border-radius: 4px;
 }
 
 a:hover, input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #f6e92d;
 }
 
 .volver, .editar{
-  background-color: #4cacaf;
+  background-color: #1520f2;
 }
 
 .eliminar {
@@ -70,7 +76,7 @@ a:hover, input[type="submit"]:hover {
 }
 
 .volver,.editar:hover {
-  background-color: #429396;
+  background-color: #e47c05;
 }
 
 .eliminar:hover {
